@@ -1,8 +1,6 @@
-demo code is free to use
-
-Find all tweets by search words for all the time with selenium
-
-All u have to do is
+demo code is free to use<br />
+Find all tweets by search words for all the time with selenium<br />
+All u have to do is<br />
 
        1)have geckodriver 
 
@@ -22,7 +20,6 @@ All u have to do is
                                          -d days from now per one iteration 
                                          in cycle to the first day of twitter
 
-U can also edit main.py and use commented code to search for companies from companies.csv using concurrency>1 
-
+U can also edit main.py and use commented code to search for companies from companies.csv using concurrency>1 <br />
 and edit selenium_twitter.py where u can find commented login func (works but u can face captcha and it'll ruin ur code)
        
