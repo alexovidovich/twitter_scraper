@@ -10,7 +10,8 @@ All u have to do is
 
                  3)install requirements.txt with "pip install -r requirements.txt"
 
-                 4)run celery with "celery -A worker.celery worker  --loglevel=info -f celery.log --concurrency=1" (concurrency max value is max logc cpu)
+                 4)run celery with "celery -A worker.celery worker  --loglevel=info -f celery.log --concurrency=1" 
+                 (concurrency max value is max logc cpu)
 
                  5)run for example "python3 main.py -f cat_vega  -s 'cat vega' -d '3'"
 
@@ -18,7 +19,8 @@ All u have to do is
 
                                                           -s is a search string
 
-                                                          -d days from now per one iteration in cycle to the first day of twitter
+                                                          -d days from now per one iteration 
+                                                          in cycle to the first day of twitter
 
 U can also edit main.py and use commented code to search for companies from companies.csv using concurrency>1 
 
