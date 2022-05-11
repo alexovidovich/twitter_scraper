@@ -20,9 +20,9 @@ else:
     print("use -f 'file to save' -s 'what to search' -d 'for how many days per operation' " )
 
 # with open("countries.csv", "r") as f:
-#     countries = csv.DictReader(f)
+#     companies = csv.DictReader(f)
 
-#     for country in countries:
-#         twitter.delay("$" + country.get("ticker"), country.get("ticker"), 3)
-#         twitter.delay(country.get("name"), country.get("name"), 3)
+#     for company in companies:
+#         twitter.delay("$" + company.get("ticker"), company.get("ticker"), 3)
+#         twitter.delay(company.get("name"), company.get("name"), 3)
 #         time.sleep(20)
